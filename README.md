@@ -4,6 +4,8 @@ Real-time speech translation. Listens to your microphone, transcribes what you s
 
 **Pipeline:** Microphone → AssemblyAI (speech-to-text) → DeepL (translation) → gTTS (text-to-speech)
 
+> **Note:** gTTS is used here for demo purposes only. For production use cases, a dedicated TTS API service is recommended — such as [ElevenLabs](https://elevenlabs.io/) or [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech) — for better voice quality, lower latency, and reliability.
+
 ## Requirements
 
 - Python 3.8+
