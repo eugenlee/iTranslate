@@ -1,0 +1,4 @@
+assemblyai
+requests
+gTTS
+pygame
