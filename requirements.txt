@@ -2,3 +2,4 @@ assemblyai
 requests
 gTTS
 pygame
+python-dotenv
